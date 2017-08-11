@@ -1,0 +1,25 @@
+1) npm install
+2) webpack
+3) npm run start-- > starts dev server at local host 3000
+
+
+    **
+    * babel - poly - fill-- >
+    for cross browser compatibility
+
+
+
+    COMPONENTS INSIDE
+
+
+    reducers --> components -->include provider in the index.js
+
+==================== ====================
+- made a reducer data to add to store
+- combine reducers and add to store
+- Provider allows every component to have access to the data in the store
+- map state to props
+-action function; link it to the container 
+***Actions automatically gets sent to ALL REDUCERS***
+-reducer is smart part and decides how it changes data
+
